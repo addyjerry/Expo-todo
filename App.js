@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
 import axios from 'axios';
 
-const API_BASE_URL = "http://dexwin-crud.infy.uk/api/todos";
+const API_BASE_URL = "http://dexwin-expo.infy.uk/?i=1";
 
 export default function App() {
   const [todos, setTodos] = useState([]);
